@@ -31,20 +31,34 @@ ul {
 	z-index: -1;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 992px) {
 	#monastic {
 	left:55%;
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 	#monastic {
 	left:10%;
 	opacity: .3;
 	max-height: 100vh;
 	min-height: 600px;
+	min-width: 575px;
+	overflow-x: hidden;
 	}
 }
+
+@media screen and (max-width: 576px) {
+	#monastic {
+	left:-5%;
+	opacity: .3;
+	max-height: 100vh;
+	min-height: 600px;
+	min-width: 576px;
+	overflow-x: hidden;
+	}
+}
+
 
 #page > .row {
 	height:100%;

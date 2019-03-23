@@ -9,8 +9,34 @@ body {
 	background-color: #C55348;
 }
 
+.navbar{
+	background-color: #B3CEBD;
+	border: 2px solid black;
+	height: 30%;
+	margin: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 ul {
+	display: flex;
+	flex-direction: row;
 	list-style-type: none;
+	padding:0;
+	margin:1px;
+}
+
+li > a {
+	color: #F6F2D7;
+	font-family: landing_font;
+	font-size:1.5em;
+	-webkit-text-stroke: 0.8px black;
+}
+
+li > a:hover {
+	color: #40496A;
+	-webkit-text-stroke: 0px black;
 }
 
 .row {

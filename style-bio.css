@@ -16,6 +16,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	min-width: 400px;
 }
 
 #nav{
@@ -123,6 +124,9 @@ li > a:hover {
 		margin-left: 0;
 		margin-right: 0;
 		margin-top: 10px;
+	}
+	.bio-image-wrapper{
+	max-width: 265px;
 	}
 	ul{
 		padding:0;

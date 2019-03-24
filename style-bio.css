@@ -79,6 +79,14 @@ li > a:hover {
 	max-width: 300px;
 }
 
+.sidebar-text{
+	background-color: #FFFFFF;
+	border: 2px solid black;
+	border-radius:2px;
+	font-size:0.5em;
+	padding: 0.5em;
+}
+
 @media screen and (min-width: 1200px) {
 	.bio-image-wrapper{
 		max-width: 185px;

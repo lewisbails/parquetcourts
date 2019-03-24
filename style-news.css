@@ -71,7 +71,7 @@ a:hover {
 
 #monastic {
 	left:60%;
-	max-height: 70vh;
+	height: 0.5vh;
 	min-height:500px;
 	overflow-x: hidden;
 	z-index: -1;
@@ -81,11 +81,23 @@ a:hover {
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	padding: 0%;
 	max-height: 100%;
 	margin-top: 1%;
 	margin-bottom: 1%;
 	max-width: 300px;
+}
+
+.news-text{
+	max-width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+	.news-image-wrapper{
+		padding: 1em;
+	}
 }
 
 
@@ -103,12 +115,16 @@ a:hover {
 
 @media screen and (max-width: 768px) {
 	#monastic {
-		left:10%;
+		left:20%;
+		top:5%;
 		opacity: .3;
 		max-height: 100vh;
 		min-height: 600px;
 		min-width: 575px;
 		overflow-x: hidden;
+	}
+	.news-image-wrapper{
+		
 	}
 	a{
 		font-size:1em;
@@ -123,7 +139,7 @@ a:hover {
 
 @media screen and (max-width: 576px) {
 	#monastic {
-	left:-5%;
+	left:0%;
 	opacity: .3;
 	max-height: 100vh;
 	min-height: 600px;
@@ -148,9 +164,6 @@ a:hover {
 		margin:auto;
 	}
 	.news-text{
-		max-width: 400px;
-		display: flex;
-		justify-content: center;
 		margin:auto;
 	}
 }

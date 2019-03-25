@@ -68,15 +68,49 @@ li > a:hover {
 	color: #74CBE7;
 }
 
+.scene {
+	padding: 0%;
+	max-height: 100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	max-width: 300px;
+	perspective: 1000px;
+  	margin-top: 1%;
+  	margin-bottom: 1%;
+}
+
+.card{
+	transition: transform 1s;
+  	transform-style: preserve-3d;
+  	cursor: pointer;
+  	position: relative;
+  	width: 100%;
+  	border: 0;
+}	
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card__face {
+  backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.card__face--back {
+  transform: rotateY(180deg);
+}
+
 .bio-image-wrapper{
 	display:flex;
 	justify-content: center;
 	align-items: center;
 	padding: 0%;
 	max-height: 100%;
-	margin-top: 1%;
-	margin-bottom: 1%;
 	max-width: 300px;
+
 }
 
 .sidebar-text{
@@ -88,8 +122,11 @@ li > a:hover {
 }
 
 @media screen and (min-width: 1200px) {
+	.scene{
+		max-width: 200px;
+	}
 	.bio-image-wrapper{
-		max-width: 185px;
+		max-width: 200px;
 	}
 }
 
@@ -133,8 +170,11 @@ li > a:hover {
 		margin-right: 0;
 		margin-top: 10px;
 	}
+	.scene{
+		max-width: 265px;
+	}
 	.bio-image-wrapper{
-	max-width: 265px;
+		max-width: 265px;
 	}
 	ul{
 		padding:0;

@@ -87,7 +87,7 @@ li > a:hover {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
 	#nav{
 		justify-content: center;
 	}

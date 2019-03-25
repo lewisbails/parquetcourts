@@ -31,17 +31,9 @@ body {
 	max-width: 415px;
 }
 
-@media screen and (max-width: 1200px) {
-}
-
 @media screen and (max-width: 768px) {
 	#landing > .row p{
 		font-size:3em;
 	}
 }
-
-@media screen and (max-width: 576px) {
-	
-}
-
 

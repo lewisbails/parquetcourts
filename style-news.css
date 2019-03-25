@@ -98,10 +98,6 @@ a:hover {
 	.news-image-wrapper{
 		padding: 1em;
 	}
-}
-
-
-@media screen and (max-width: 992px) {
 	#monastic {
 		left:55%;
 	}
@@ -113,7 +109,7 @@ a:hover {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
 	#monastic {
 		left:20%;
 		top:5%;
@@ -137,9 +133,9 @@ a:hover {
 	}
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
 	#monastic {
-	left:0%;
+	left:10%;
 	opacity: .3;
 	max-height: 100vh;
 	min-height: 600px;
@@ -165,6 +161,17 @@ a:hover {
 	}
 	.news-text{
 		margin:auto;
+	}
+	.news-item{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 576px){
+	#monastic {
+		left:-5%;
 	}
 }
 

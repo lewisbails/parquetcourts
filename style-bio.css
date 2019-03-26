@@ -78,6 +78,7 @@ li > a:hover {
 	perspective: 1000px;
   	margin-top: 1%;
   	margin-bottom: 1%;
+  	background-color: #F36823;
 }
 
 .card{
@@ -87,6 +88,7 @@ li > a:hover {
   	position: relative;
   	width: 100%;
   	border: 0;
+  	background-color: #F36823;
 }	
 
 .card.is-flipped {

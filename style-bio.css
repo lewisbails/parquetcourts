@@ -102,6 +102,10 @@ li > a:hover {
   height: 100%;
 }
 
+.card__face > p {
+	position: absolute;
+}
+
 .card__face--back {
   transform: rotateY(180deg);
 }
@@ -120,7 +124,7 @@ li > a:hover {
 	background-color: #FFFFFF;
 	border: 2px solid black;
 	border-radius:2px;
-	font-size:0.5em;
+	font-size:0.8em;
 	padding: 0.5em;
 }
 
@@ -135,7 +139,6 @@ button {
 	max-height:50%;
 	margin-left: 1%;
 }
-
 @media screen and (min-width: 1200px) {
 	.scene{
 		max-width: 200px;
@@ -144,9 +147,6 @@ button {
 		max-width: 200px;
 	}
 }
-
-
-
 @media screen and (max-width: 1200px) {
 	li > a {
 	color: #ED1D24;
@@ -172,7 +172,7 @@ button {
 
 @media screen and (max-width: 768px) {
 	#bio{
-	min-height: 2300px;
+	min-height: 2400px;
 	}	
 	.bio-row{
 		flex-direction: column;

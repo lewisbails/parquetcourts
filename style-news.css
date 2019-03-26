@@ -15,10 +15,6 @@ body {
 	min-width: 400px;
 }
 
-#news{
-	height: 100vh;
-}
-
 #nav{
 	display: flex;
 	flex-direction: row;
@@ -95,9 +91,15 @@ a:hover {
 
 footer {
    width: 100%;
-   background-color: red;
-   color: white;
+   background-color: rgba(0,0,0,0.05);
+   color: black;
+   opacity: 0.8;
    text-align: center;
+}
+
+button {
+	max-height:50%;
+	margin-left: 1%;
 }
 
 @media screen and (max-width: 1200px) {

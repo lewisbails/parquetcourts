@@ -17,6 +17,7 @@ body {
 
 #bio{
 	height:100vh;
+	min-height: 850px;
 }
 
 #nav{
@@ -123,9 +124,14 @@ li > a:hover {
 
 footer {
    width: 100%;
-   background-color: red;
-   color: white;
+   background-color: rgba(0,0,0,0.05);
+   color: black;
    text-align: center;
+}
+
+button {
+	max-height:50%;
+	margin-left: 1%;
 }
 
 @media screen and (min-width: 1200px) {
@@ -156,10 +162,16 @@ footer {
 	font-size:0.8em;
 	-webkit-text-stroke: 0.4px black;
 	}
+	#bio{
+	min-height: 1400px;
+	}	
 	
 }
 
 @media screen and (max-width: 768px) {
+	#bio{
+	min-height: 2300px;
+	}	
 	.bio-row{
 		flex-direction: column;
 		justify-content: center;
@@ -182,6 +194,7 @@ footer {
 	}
 	.bio-image-wrapper{
 		max-width: 265px;
+		margin-left: 0;
 	}
 	ul{
 		padding:0;

@@ -10,6 +10,10 @@ body {
 	min-width: 400px;
 }
 
+#dates{
+	min-height: 900px;
+}
+
 #spacer {
 	padding: 0;
 }
@@ -79,17 +83,35 @@ li > a:hover {
 	padding-right:0;
 	padding-left: 0;
 }
+footer {
+   width: 100%;
+   background-color: rgba(0,0,0,0.05);
+   color: black;
+   text-align: center;
+}
+
+button {
+	max-height:50%;
+	margin-left: 1%;
+}
 
 @media screen and (min-width: 1200px) {
 	.dates-img-wrapper{
 		max-width: 680px;
 	}
 
+
 }
 
 @media screen and (max-width: 992px) {
 	#nav{
 		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#dates{
+		min-height: 1400px;
 	}
 }
 
@@ -100,6 +122,9 @@ li > a:hover {
 
 	#dates > .row p{
 		font-size:3em;
+	}
+	#dates{
+		min-height: 1100px;
 	}
 }
 

@@ -1,3 +1,4 @@
+<?php /* Template Name: Landing */ ?>
 <!doctype html>
 <html lang="en">
 	<head>

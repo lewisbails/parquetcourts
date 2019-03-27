@@ -1,5 +1,3 @@
-
-<?php /* Template Name: News */ ?>
 <!doctype html>
 <html lang="en">
 	<head>
@@ -30,7 +28,6 @@
 				  	</ul>
 				</nav>
 			</div>
-			<?php endif; ?>
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<div class="row news-item">
 					<div class="offset-xl-1 offset-lg-0 offset-md-1 col-xl-4 col-lg-4 col-md-6 col-12 news-image-wrapper">

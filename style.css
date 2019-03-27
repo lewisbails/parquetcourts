@@ -1,43 +1,7 @@
-@font-face {
-  font-family: 'landing_font';
-  src: url('../fonts/anthology.regular-demo.ttf') format('truetype')
-}
-
-html{
-	height:100vh;
-}  
-
-body {
-	font-size: 100%;
-	height: 100%;
-	background-color: #FFAAAA;
-	min-width: 400px;
-}
-
-.row {
-	max-height: 100%;
-}
-
-#landing{
-	min-height: 100%;
-	display:flex;
-	align-items: flex-center;
-}
-
-#landing > .row p {
-	color: #333333;
-	font-family: landing_font;
-	font-size: 4em;
-	font-weight: 700;
-}
-
-.image-wrapper {
-	max-width: 415px;
-}
-
-@media screen and (max-width: 768px) {
-	#landing > .row p{
-		font-size:3em;
-	}
-}
-
+/*
+Theme Name: Parquet Courts
+Author: Lewis Bails
+Author URI: None
+Description: A sample blog for Parquet Courts. None of the art is mine. It belogs to someone far more talented than I.
+Version: 0.1
+*/

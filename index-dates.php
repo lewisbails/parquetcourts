@@ -1,3 +1,4 @@
+<?php /* Template Name: Shows */ ?>
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
@@ -6,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	    <!-- Bootstrap -->
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	    <link href="css/style-dates.css" type="text/css" rel="stylesheet" />
+	    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/style-dates.css" type="text/css" rel="stylesheet" />
 		<title>
 			Parquet Courts - Dates
 		</title>
@@ -17,13 +18,13 @@
 				<nav class="navbar col-sm-12">
 				  	<ul class="d-flex">
 					    <li class="nav-item">
-					      <a class="nav-link" href="index.html">Home</a>
+					      <a class="nav-link" href="/wordpress">Home</a>
 					    </li>
 					    <li class="nav-item">
-					      <a class="nav-link" href="index-bio.html">Bio</a>
+					      <a class="nav-link" href="/wordpress/bio">Bio</a>
 					    </li>
 					    <li class="nav-item">
-					      <a class="nav-link" href="index-news.html">News</a>
+					      <a class="nav-link" href="/wordpress/news">News</a>
 					    </li>
 				  	</ul>
 				</nav>
@@ -40,7 +41,7 @@
 					<li>DEC 5th @ Danforth Music Hall<br>Toronto, ON</li>
 					<li>DEC 5th @ Danforth Music Hall<br>Toronto, ON</li>
 				</ul>
-				<div class="dates-img-wrapper offset-xl-1 col-xl-7 offset-lg-0 col-lg-7 offset-md-0 col-md-8 offset-sm-0 col-sm-12 col-10 offset-1"><img class="img-fluid" src="images/desk_edit.jpg" alt="Violence!">
+				<div class="dates-img-wrapper offset-xl-1 col-xl-7 offset-lg-0 col-lg-7 offset-md-0 col-md-8 offset-sm-0 col-sm-12 col-10 offset-1"><img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/images/desk_edit.jpg" alt="Violence!">
 				</div>
 			</div>
 		</section>

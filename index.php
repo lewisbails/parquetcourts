@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	    <!-- Bootstrap -->
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	    <link href="css/style.css" type="text/css" rel="stylesheet" />
+	    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css" type="text/css" rel="stylesheet" />
 		<title>
 			Parquet Courts - Landing
 		</title>
@@ -16,7 +16,7 @@
 			<div class="row">
 				<div class="col-xl-6 offset-xl-2 col-lg-5 offset-lg-2 col-md-5 offset-md-2 col-sm-5 offset-sm-2 col-5 offset-1 d-flex flex-column align-items-center justify-content-center">
 					<p id="par">PAR</p>
-					<div class="image-wrapper"><a href="index-news.html"><img class="img-fluid" src="images/berlingotblurry.png" alt="TV Tower PQ Style!"></a></div>
+					<div class="image-wrapper"><a href="/wordpress/news"><img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/images/berlingotblurry.png" alt="TV Tower PQ Style!"></a></div>
 					<p>COURTS</p>
 				</div>
 				<div class="col-1 d-flex align-items-center justify-content-start">

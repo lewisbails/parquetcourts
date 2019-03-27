@@ -1,3 +1,5 @@
+
+<?php /* Template Name: News */ ?>
 <!doctype html>
 <html lang="en">
 	<head>
@@ -6,7 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	    <!-- Bootstrap -->
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	    <link href="css/style-news.css" type="text/css" rel="stylesheet" />
+	    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/style-news.css" type="text/css" rel="stylesheet" />
 		<title>
 			Parquet Courts - News
 		</title>
@@ -17,20 +19,20 @@
 				<nav class="col-xs-8 navbar">
 				  	<ul class="d-flex">
 				  		<li class="nav-item">
-					      <a class="nav-link" href="index.html">Parquet Courts...</a>
+					      <a class="nav-link" href="/wordpress">Parquet Courts...</a>
 					    </li>
 					    <li class="nav-item">
-					      <a class="nav-link" href="index-bio.html">Bio</a>
+					      <a class="nav-link" href="/wordpress/bio">Bio</a>
 					    </li>
 					    <li class="nav-item">
-					      <a class="nav-link" href="index-dates.html">Shows</a>
+					      <a class="nav-link" href="/wordpress/shows">Shows</a>
 					    </li>
 				  	</ul>
 				</nav>
 			</div>
 			<div class="row news-item">
 				<div class="offset-xl-1 offset-lg-0 offset-md-1 col-xl-4 col-lg-4 col-md-6 col-12 news-image-wrapper">
-					<img class="img-fluid" src="images/news-1.jpg" alt="news-image-1">
+					<img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/images/news-1.jpg" alt="news-image-1">
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-5 col-12 news-text"><p>
 					Come see our show with this dude! Come see our show with this dude! Come see our show with this dude! Come see our show with this dude! Come see our show with this dude! Come see our show with this dude! Come see our show with.</p>
@@ -38,7 +40,7 @@
 			</div>
 			<div class="row news-item">
 				<div class="offset-xl-1 offset-lg-0 offset-md-1 col-xl-4 col-lg-4 col-md-6 col-12 news-image-wrapper">
-					<img class="img-fluid" src="images/news-2.jpg" alt="news-image-2">
+					<img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/images/news-2.jpg" alt="news-image-2">
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-5 col-12 news-text"><p>
 					Come see our show with this dude! Come see our show with this dude! Come see our show with this dude! Come see our show with this dude! Come see our show with this dude! Come see our show with this dude! Come see our show with</p>
@@ -46,7 +48,7 @@
 			</div>
 			<div class="row news-item">
 				<div class="offset-xl-1 offset-lg-0 offset-md-1 col-xl-4 col-lg-4 col-md-6 col-12 news-image-wrapper">
-					<img class="img-fluid" src="images/news-3.jpg" alt="news-image-3">
+					<img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/images/news-3.jpg" alt="news-image-3">
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-5 col-12 news-text"><P>
 					Come see our show with this dude! Come see our show with this dude! Come see our show with this dude! Come see our show with this dude! Come see our show with this dude! Come see our show with this dude! Come see our show with</p>
@@ -54,7 +56,7 @@
 			</div>
 
 		</section>
-		<img id="monastic" class="img-fluid fixed-top" src="images/monastic-living.jpg">
+		<img id="monastic" class="img-fluid fixed-top" src="<?php echo get_stylesheet_directory_uri(); ?>/images/monastic-living.jpg">
 		<footer>
 			<div class="container-fluid">
 				<div class="row d-flex">

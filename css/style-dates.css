@@ -36,6 +36,9 @@ nav > ul {
 	padding:0;
 	margin:1px;
 }
+li {
+	font-size: 1em;
+}
 
 li > a {
 	color: #F6F2D7;
@@ -54,11 +57,12 @@ li > a:hover {
 	border: 2px solid black;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	list-style-type: none;
 	padding:2rem;
 	margin-top: 1rem;
+	font-size: 1em;
 }
 
 .row {

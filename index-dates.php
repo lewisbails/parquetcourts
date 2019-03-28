@@ -24,15 +24,6 @@
 			</div>
 			<div class="row">
 				<ul class="dates-list col-xl-3 offset-xl-1 offset-lg-1 col-lg-4 offset-md-0 col-md-4 col-sm-8 offset-sm-2 col-10 offset-1">
-<!-- 					<li>DEC 5th @ Danforth Music Hall<br>Toronto, ON</li>
-					<li>DEC 5th @ Danforth Music Hall<br>Toronto, ON</li>
-					<li>DEC 5th @ Danforth Music Hall<br>Toronto, ON</li>
-					<li>DEC 5th @ Danforth Music Hall<br>Toronto, ON</li>
-					<li>DEC 5th @ Danforth Music Hall<br>Toronto, ON</li>
-					<li>DEC 5th @ Danforth Music Hall<br>Toronto, ON</li>
-					<li>DEC 5th @ Danforth Music Hall<br>Toronto, ON</li>
-					<li>DEC 5th @ Danforth Music Hall<br>Toronto, ON</li>
-					<li>DEC 5th @ Danforth Music Hall<br>Toronto, ON</li> -->
 					<?php
 					$loop = new WP_Query( array(
 					    'post_type' => 'show',

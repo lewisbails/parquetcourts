@@ -8,11 +8,13 @@
 						<p><br>Rough Trade MGMT<br>What's Your Rupture<br>Dull Tools</p>
 					</div>
 					<form class="col-lg-4 col-md-4 col-6 d-flex align-items-center">
-					  <div class="form-group">
+						<div class="d-flex align-items-end">
+					  <div class="form-group mb-0">
 					    <label for="exampleInputEmail1">Join our mailing list...</label>
 					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 					  </div>
-					  <button type="button" class="btn btn-primary">Do it!</button>
+					  <button type="button" class="btn btn-primary">Go!</button>
+					</div>
 					</form>
 				</div>
 			</div>

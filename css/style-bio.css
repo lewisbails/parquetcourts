@@ -29,7 +29,7 @@ body {
 }
 
 #image-header{
-	padding: 0;
+	padding: 1% 0;
 }
 
 #image-header > img {
@@ -197,6 +197,10 @@ button {
 	.bio-image-wrapper{
 		max-width: 265px;
 		margin-left: 0;
+	}
+
+	#image-header{
+		max-width: 500px;
 	}
 	ul{
 		padding:0;

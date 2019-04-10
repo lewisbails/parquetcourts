@@ -101,21 +101,6 @@ a:hover {
 	align-items: center;
 }
 
-/* Footer and footer contents */
-
-footer {
-   width: 100%;
-   background-color: rgba(0,0,0,0.05);
-   color: black;
-   opacity: 0.8;
-   text-align: center;
-}
-
-button {
-	max-height:50%;
-	margin-left: 1%;
-}
-
 /* Responsive */
 
 @media screen and (max-width: 1200px) {
@@ -163,12 +148,8 @@ button {
 	min-width: 576px;
 	overflow-x: hidden;
 	}
-
 	.navbar {
 		max-width: 400px;
-	}
-	 a{
-		font-size:1.2em;
 	}
 	#nav{
 		max-width: 400px;
@@ -176,6 +157,9 @@ button {
 		margin: auto;
 		margin-top:1rem;
 		margin-bottom: 1rem;
+	}
+	 a{
+		font-size:1.2em;
 	}
 	.news-image-wrapper{
 		margin:auto;

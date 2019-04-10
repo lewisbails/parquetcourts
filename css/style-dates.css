@@ -96,20 +96,6 @@ li > a:hover {
 	padding-left: 0;
 }
 
-/* Footer and footer contents */
-
-footer {
-   width: 100%;
-   background-color: rgba(0,0,0,0.05);
-   color: black;
-   text-align: center;
-}
-
-button {
-	max-height:50%;
-	margin-left: 1%;
-}
-
 /* Responsive */
 
 @media screen and (min-width: 1200px) {

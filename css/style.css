@@ -1,7 +1,11 @@
+/* Fonts */
+
 @font-face {
   font-family: 'landing_font';
   src: url('../fonts/anthology.regular-demo.ttf') format('truetype')
 }
+
+/* body, rows and background */
 
 html{
 	height:100vh;
@@ -31,9 +35,13 @@ body {
 	font-weight: 700;
 }
 
+/* Image */
+
 .image-wrapper {
 	max-width: 415px;
 }
+
+/* Responsive */
 
 @media screen and (max-width: 768px) {
 	#landing > .row p{

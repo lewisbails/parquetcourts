@@ -1,7 +1,11 @@
+/* Fonts */
+
 @font-face {
   font-family: 'landing_font';
   src: url('../fonts/anthology.regular-demo.ttf') format('truetype')
 }
+
+/* Body, rows, and background */
 
 html {
 	height:100vh;
@@ -20,13 +24,7 @@ body {
 	min-height: 850px;
 }
 
-#nav{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-	min-width: 335px;
-}
+/* Header */
 
 #image-header{
 	padding: 1% 0;
@@ -34,6 +32,16 @@ body {
 
 #image-header > img {
 	max-height: 100%;
+}
+
+/* Navigation */
+
+#nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	min-width: 335px;
 }
 
 .navbar{
@@ -68,6 +76,8 @@ li > a {
 li > a:hover {
 	color: #74CBE7;
 }
+
+/* Flip cards */
 
 .scene {
 	padding: 0%;
@@ -120,6 +130,8 @@ li > a:hover {
 
 }
 
+/* Sidebar */
+
 .sidebar-text{
 	background-color: #FFFFFF;
 	border: 2px solid black;
@@ -127,6 +139,8 @@ li > a:hover {
 	font-size:0.8em;
 	padding: 0.5em;
 }
+
+/* Footer and footer contents */
 
 footer {
    width: 100%;
@@ -139,6 +153,9 @@ button {
 	max-height:50%;
 	margin-left: 1%;
 }
+
+/* Responsive */
+
 @media screen and (min-width: 1200px) {
 	.scene{
 		max-width: 200px;
@@ -147,6 +164,7 @@ button {
 		max-width: 200px;
 	}
 }
+
 @media screen and (max-width: 1200px) {
 	li > a {
 	color: #ED1D24;
@@ -155,7 +173,6 @@ button {
 	-webkit-text-stroke: 0.6px black;
 	}
 }
-
 
 @media screen and (max-width: 992px) {
 	li > a {
@@ -167,7 +184,6 @@ button {
 	#bio{
 	min-height: 1400px;
 	}	
-	
 }
 
 @media screen and (max-width: 768px) {
@@ -183,24 +199,10 @@ button {
 		flex-direction: column;
 		align-items:center;
 	}
-	.bio-image{
-		max-height: 2000px;
-	}
 	.navbar {
 		margin-left: 0;
 		margin-right: 0;
 		margin-top: 10px;
-	}
-	.scene{
-		max-width: 265px;
-	}
-	.bio-image-wrapper{
-		max-width: 265px;
-		margin-left: 0;
-	}
-
-	#image-header{
-		max-width: 500px;
 	}
 	ul{
 		padding:0;
@@ -211,4 +213,19 @@ button {
 	font-size:1.5em;
 	-webkit-text-stroke: 1px black;
 	}
+	.scene{
+		max-width: 265px;
+	}
+	.bio-image{
+		max-height: 2000px;
+	}
+	.bio-image-wrapper{
+		max-width: 265px;
+		margin-left: 0;
+	}
+
+	#image-header{
+		max-width: 500px;
+	}
+
 }

@@ -1,7 +1,11 @@
+/* Fonts */
+
 @font-face {
   font-family: 'landing_font';
   src: url('../fonts/anthology.regular-demo.ttf') format('truetype')
 }
+
+/* Body, rows, and background */
 
 html {
 	height:100vh;
@@ -14,6 +18,21 @@ body {
 	max-width: 100vw;
 	min-width: 400px;
 }
+
+#monastic {
+	top:5%;
+	left:60%;
+	height: 0.5vh;
+	min-height:500px;
+	overflow-x: hidden;
+	z-index: -1;
+}
+
+#page > .row {
+	height:100%;
+}
+
+/* Navigation */
 
 #nav{
 	display: flex;
@@ -53,25 +72,17 @@ a {
 	font-size:2em;
 }
 
+a:hover {
+	color: #00ACD4;
+}
+
 
 .nav-link{
 	padding: 0rem 0.5rem;
 }
 
 
-a:hover {
-	color: #00ACD4;
-}
-
-
-#monastic {
-	top:5%;
-	left:60%;
-	height: 0.5vh;
-	min-height:500px;
-	overflow-x: hidden;
-	z-index: -1;
-}
+/* News items */
 
 .news-image-wrapper{
 	display:flex;
@@ -90,6 +101,8 @@ a:hover {
 	align-items: center;
 }
 
+/* Footer and footer contents */
+
 footer {
    width: 100%;
    background-color: rgba(0,0,0,0.05);
@@ -102,6 +115,8 @@ button {
 	max-height:50%;
 	margin-left: 1%;
 }
+
+/* Responsive */
 
 @media screen and (max-width: 1200px) {
 	.news-image-wrapper{
@@ -127,9 +142,6 @@ button {
 		min-height: 600px;
 		min-width: 575px;
 		overflow-x: hidden;
-	}
-	.news-image-wrapper{
-		
 	}
 	a{
 		font-size:1em;
@@ -182,9 +194,4 @@ button {
 	#monastic {
 		left:-5%;
 	}
-}
-
-
-#page > .row {
-	height:100%;
 }
